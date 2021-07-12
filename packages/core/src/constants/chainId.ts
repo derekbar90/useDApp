@@ -27,7 +27,7 @@ export const CHAIN_NAMES = {
   [ChainId.Localhost]: 'Localhost',
   [ChainId.Hardhat]: 'Hardhat',
   [ChainId.ArbitrumTestnet]: 'Arbitrum Testnet',
-  [ChainId.Arbitrum]: 'Arbitrum',
+  [ChainId.Arbitrum]: 'Arbitrum One',
 }
 
 export const MULTICALL_ADDRESSES = {
