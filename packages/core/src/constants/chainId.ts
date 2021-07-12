@@ -10,6 +10,8 @@ export enum ChainId {
   Mumbai = 80001,
   Localhost = 1337,
   Hardhat = 31337,
+  ArbitrumTestnet = 421611,
+  Arbitrum = 42161,
 }
 
 export const CHAIN_NAMES = {
@@ -24,6 +26,8 @@ export const CHAIN_NAMES = {
   [ChainId.Mumbai]: 'Mumbai',
   [ChainId.Localhost]: 'Localhost',
   [ChainId.Hardhat]: 'Hardhat',
+  [ChainId.ArbitrumTestnet]: 'Arbitrum Testnet',
+  [ChainId.Arbitrum]: 'Arbitrum',
 }
 
 export const MULTICALL_ADDRESSES = {
@@ -36,6 +40,7 @@ export const MULTICALL_ADDRESSES = {
   [ChainId.xDai]: '0xb5b692a88bdfc81ca69dcb1d924f59f0413a602a',
   [ChainId.Polygon]: '0x11ce4B23bD875D7F5C6a31084f55fDe1e9A87507',
   [ChainId.Mumbai]: '0x08411ADd0b5AA8ee47563b146743C13b3556c9Cc',
+  // [ChainId.ArbitrumTestnet]: 'TBD',
 }
 
 export const TEST_CHAINS = [
@@ -46,6 +51,7 @@ export const TEST_CHAINS = [
   ChainId.Mumbai,
   ChainId.Localhost,
   ChainId.Hardhat,
+  ChainId.ArbitrumTestnet,
 ]
 
 export const LOCAL_CHAINS = [ChainId.Localhost, ChainId.Hardhat]
